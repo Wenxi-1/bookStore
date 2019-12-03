@@ -5,6 +5,23 @@
 	<artifactId>bookStore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.3.7.RELEASE</version>
+		</dependency>
+		<!-- 连接池 -->
+		<dependency>
+			<groupId>com.jolbox</groupId>
+			<artifactId>bonecp-spring</artifactId>
+			<version>0.8.0.RELEASE</version>
+		</dependency>
+		<!-- 文熙 -->
+
+	</dependencies>
+	
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -12,5 +29,7 @@
 		<version>1.5.2.RELEASE</version>
 	</parent>
 <!-- 	戴澳 -->
+
+
 
 </project>
